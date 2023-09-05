@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home</title>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to our fun game website</h1>
+        <img src="../img/logo.jpg" alt="logo" id="title">
+    </header>
+    <nav>
+        <button id="toSignUp">sign up</button>
+        <form id="signUpForm">
+            <fieldset id="fieldset">
+                <legend>sign up</legend>
+                <div class="form">
+                    <label for="name">name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form">
+                    <label for="address">address</label>
+                    <input type="text" id="address">
+                </div>
+                <div class="form">
+                    <label for="phone">phone number</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div class="form">
+                    <label for="email">email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form">
+                    <label for="password">password</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="button" id="sign">sign up</button>
+            </fieldset>
+        </form>
+        <button id="toLogIn">log in</button>
+        <form id="logInForm">
+            <fieldset id="fieldset">
+                <legend>log in</legend>
+                <div class="form">
+                    <label for="name">name</label>
+                    <input type="text" id="logName" required>
+                </div>
+                <div class="form">
+                    <label for="password">password</label>
+                    <input type="password" id="logPassword" required>
+                </div>
+                <button type="button" id="log">log in</button>
+            </fieldset>
+        </form>
+    </nav>
+</body>
+<script src="../js/signUp.js"></script>
+
+</html>

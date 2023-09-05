@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instructions</title>
+    <link rel="stylesheet" href="../css/instructions.css">
+</head>
+
+<body>
+    <img src="../img/mylogo.png" alt="logo">
+
+    <div id="instructions">
+        <h1>Mastermind - instructions</h1>
+        <h3>How to master Mastermind?</h3>
+        <p>
+            Each guess is made by placing a row of code pegs on the decoding board.
+            <br> Once placed, the codemaker provides feedback by placing from zero to four key pegs in the small holes
+            of the
+            row with the guess.
+            <br> A white key peg is placed for each code peg from the guess which is correct in both color and position,
+            <br> and a black key pge is placed for each code peg from the guess which is a correct color, but in wrong
+            position.
+            <br> The game is set defaultively to an option of six colors to choose from, and 4 circles to have to fill
+            correctly.
+            <br> To play like that click the "to play" button, to change click the "to change" button.
+        </p>
+    </div>
+
+    <div id="btns">
+        <div>
+            <button id="toChange" onclick="viewOptions()">to change</button>
+        </div>
+        <div>
+            <a href="game.html">
+                <button id="toPlay">to play</button>
+            </a>
+        </div>
+    </div>
+
+
+    <div id="changeNumbers" style="display: none;">
+        <label for="circles">circles</label>
+        <input type="number " placeholder="Enter circle amount 3-6 " id="circles">
+        <label for="options ">options</label>
+        <input type="number " placeholder="Enter color amount 5-8" id="options">
+        <button id="change " onclick="changeFunc()">change</button>
+    </div>
+
+</body>
+<script src="../js/instruction.js"></script>
+
+</html>

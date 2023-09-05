@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 50px;
+    color: red;
+    margin: 90px auto 1px auto;
+    text-align: center;
+}
+
+#title{
+    display: block;
+  margin: 1px auto 30px auto;
+    height: 250px;
+    width: 500px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around ;
+}
+
+#sign, #log{
+    margin: 5% 5%;
+}
+fieldset{
+    color: white;
+    width:100px;
+}
+label{
+    font-weight: bold;
+    width: 110px;
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+#signUpForm, #logInForm{
+    display: none;
+    margin-top: 150px;
+
+}
+
+#toSignUp, #toLogIn{
+    height: 50px;
+    width: 200px;
+    margin: 2% ;
+    font-size: 20px;
+    background-color: grey;
+    margin-top: 200px;
+}
+
+#myGrid {
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    background-color: black;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 450px;
+    margin-top: 80px 300px;
+    grid-row-gap: 100px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+#options{
+    color: white;
+}

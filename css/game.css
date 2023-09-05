@@ -1,0 +1,126 @@
+body {
+background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+height: 120px;
+position: fixed;
+top: 0;
+}
+
+#colors {
+    float: left;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-left: 22%;
+}
+
+.colorNav {
+    width: 120px;
+    height: 100px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.playersChoice {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 60%;
+    z-index: 1;
+}
+
+.green {
+    background-color: chartreuse;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: rgb(243, 119, 47);
+}
+
+.red {
+    background-color: rgb(236, 14, 14);
+}
+
+.pink {
+    background-color: rgb(185, 29, 146);
+}
+
+.purple {
+    background-color: rgb(113, 15, 170);
+}
+
+.blue {
+    background-color: rgb(50, 124, 221);
+}
+
+.lightBlue {
+    background-color: rgb(141, 199, 235)
+}
+
+#myBoard {
+    margin-top: 100px;
+    margin-left:40%;
+    border-collapse: separate;
+    border-spacing: 10px 30px;
+}
+
+.scoreContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.score {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    margin-left: 5px;
+    border-radius: 60%;
+}
+
+.white {
+    background-color: white;
+    border: 2px solid white;
+}
+
+.black {
+    background-color: black;
+    border: 2px solid grey;
+}
+
+#win{
+    background: rgb(225, 225, 225);
+    opacity: 0.85;
+    height: 600px;
+    width: 800px;
+    display: none;
+    margin: 3% 15%;
+    z-index: 100;
+    position: fixed;
+}
+
+h1{
+    font-family: Amaranth;
+    margin: 10%;
+    text-align: center;
+}
+
+#signOut {
+    height: 50px;
+    width: 200px;
+    margin: 2% ;
+    font-size: 20px;
+    background-color: grey;
+    border-radius: 5px;
+}

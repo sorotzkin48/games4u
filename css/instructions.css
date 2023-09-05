@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+ 
+}
+
+img{
+    height: 200px;
+}
+
+#instructions{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 3px 150px 30px 50px;
+    font-family: Amaranth;
+}
+
+#toPlay, #toChange{
+    height: 50px;
+    width: 200px;
+    margin: 2% ;
+    font-size: 20px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+#btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+#option{
+    color: white;
+    display: block;
+}
